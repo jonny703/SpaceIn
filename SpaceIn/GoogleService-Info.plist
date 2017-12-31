@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>890959877776-06q2fgd9mn74imb7d8au562j72ha55qd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.890959877776-06q2fgd9mn74imb7d8au562j72ha55qd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD-wW3FVV5Q7Wcuqu6CrD4B275-_dOUqyU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>890959877776</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.caesar.spacein</string>
+	<key>PROJECT_ID</key>
+	<string>spacein-e9434</string>
+	<key>STORAGE_BUCKET</key>
+	<string>spacein-e9434.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:890959877776:ios:834721f822d075bd</string>
+	<key>DATABASE_URL</key>
+	<string>https://spacein-e9434.firebaseio.com</string>
+</dict>
+</plist>

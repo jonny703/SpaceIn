@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NDIntroPageView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TitleLabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbc-So-i87">
+                    <rect key="frame" x="20" y="457" width="335" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="FCz-kH-MNV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="24"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DescriptionLabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Vkc-vv-81W">
+                    <rect key="frame" x="20" y="557" width="335" height="20"/>
+                    <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VAK-5f-bEj">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Vkc-vv-81W" firstAttribute="top" secondItem="cbc-So-i87" secondAttribute="bottom" constant="20" id="5eU-Ac-PK3"/>
+                <constraint firstAttribute="right" secondItem="VAK-5f-bEj" secondAttribute="right" id="7Pn-Po-Dia"/>
+                <constraint firstItem="VAK-5f-bEj" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="EII-5U-v0y"/>
+                <constraint firstItem="Vkc-vv-81W" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="H7J-jA-5Dm"/>
+                <constraint firstItem="VAK-5f-bEj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="VQv-8p-mC4"/>
+                <constraint firstAttribute="trailing" secondItem="Vkc-vv-81W" secondAttribute="trailing" constant="20" id="W0a-YR-7AK"/>
+                <constraint firstItem="cbc-So-i87" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="W8V-L2-Obw"/>
+                <constraint firstItem="VAK-5f-bEj" firstAttribute="left" secondItem="iN0-l3-epB" secondAttribute="left" id="Xm2-qW-XkA"/>
+                <constraint firstAttribute="bottom" secondItem="VAK-5f-bEj" secondAttribute="bottom" id="cHp-4E-uWJ"/>
+                <constraint firstAttribute="bottom" secondItem="Vkc-vv-81W" secondAttribute="bottom" constant="90" id="fdz-GH-iut"/>
+                <constraint firstAttribute="trailing" secondItem="cbc-So-i87" secondAttribute="trailing" constant="20" id="uI9-6b-SVo"/>
+            </constraints>
+            <connections>
+                <outlet property="descriptionLabel" destination="Vkc-vv-81W" id="elZ-7r-nK1"/>
+                <outlet property="imageHorizontalConstraint" destination="EII-5U-v0y" id="sUu-g9-CDg"/>
+                <outlet property="imageView" destination="VAK-5f-bEj" id="SVy-X1-yUa"/>
+                <outlet property="titleLabelHeightConstraint" destination="FCz-kH-MNV" id="gin-bs-k0H"/>
+                <outlet property="titlelabel" destination="cbc-So-i87" id="zKd-yE-dvy"/>
+            </connections>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+</document>
